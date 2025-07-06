@@ -30,35 +30,7 @@ const testimonials = [
   },
 ];
 
-const dockLinks = [
-  {
-    title: "Home",
-    icon: <IconHome className="h-6 w-6 text-neutral-500 dark:text-neutral-300" />,
-    href: "#home",
-  },
-  {
-    title: "Instagram",
-    icon: (
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
-        alt="Instagram"
-        className="h-6 w-6"
-      />
-    ),
-    href: "https://www.instagram.com/tax_shila",
-  },
-  {
-    title: "WhatsApp",
-    icon: (
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-        alt="WhatsApp"
-        className="h-6 w-6"
-      />
-    ),
-    href: "https://wa.me/919760091133",
-  },
-];
+
 
 export default function Home() {
   useEffect(() => {

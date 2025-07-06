@@ -99,19 +99,7 @@ export default function About() {
           ))}
         </motion.div>
 
-        {/* Team Image */}
-        {/* <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5 }}
-          className="mt-20 text-center"
-        >
-          <img
-            src="https://images.unsplash.com/photo-1620121697502-1c8a821fa6d8?auto=format&fit=crop&w=1280&q=80"
-            alt="Taxshila Team"
-            className="mx-auto rounded-xl shadow-2xl max-w-4xl w-full"
-          />
-        </motion.div> */}
+       
 
         {/* Animated Tooltip (Team Members / Features) */}
         <div className="flex justify-center gap-6 mt-24">
