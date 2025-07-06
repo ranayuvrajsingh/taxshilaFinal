@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { AnimatedTestimonials } from "../components/ui/animated-testimonials";
 import { WavyBackground } from "../components/ui/wavy-background";
-import { IconHome } from "@tabler/icons-react";
+
 
 const testimonials = [
   {
